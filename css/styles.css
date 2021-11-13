@@ -1,13 +1,166 @@
 #title{
+    position: relative;
+    z-index: -2;
     background-color: #ff4c68;
+    color: white;
+    padding-bottom: 250px;
+    
 }
 
-h1 {  font-family: 'Montserrat, sans-serif'; 
-         font-size: 3rem; 
+
+body{
+    font-family: 'Montserrat, sans-serif'; 
+         
           line-height: 1.5;  
-          font-weight: 900;
+          font-weight: 600;
+}
+
+h1 {  font-family: 'Montserrat', 'sans-serif'; 
+         font-size: 4rem; 
+          line-height: 1.5;  
+          
+         
           
         }
+h2 {  font-family: 'Montserrat', 'sans-serif'; 
+            font-size: 2.5rem; 
+             line-height: 1.5;  
+             
+            
+             
+    }
 .container-fluid{
-    padding : 3% 15%
+    
+    padding : 3% 0;
+    
+}
+
+/* nav */
+.navbar{
+    padding: 0 15% ;
+    background-color: rgb(230, 148, 148);
+
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0 0 0 0;
+    text-align: right;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.download-adv{
+    padding-left: 15%;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-family: 'Montserrat-light';
+}
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    position: absolute;
+    transform: rotate(25deg);
+    z-index: -1;
+}
+/* FEATURES */
+.heart{
+    color: #ef8172; 
+ }
+.heart:hover{
+    color: red;
+}
+.bullseye{
+    color: #ef8172; 
+ }
+.bullseye:hover{
+    color: red;
+}
+.check{
+    color: #ef8172; 
+ }
+.check:hover{
+    color: red;
+}
+
+
+
+#features{
+    font-family: 'Montserrat-bold';
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+    background-color: rgb(243, 208, 208);
+    
+}
+#features h3{
+    font-family: 'Montserrat-bold';
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+    
+}
+.features-sub-text{
+    color: #8f8f8f;
+    font-size: 1.5rem;
+}
+
+/* testamonial */
+#testimonials{
+    
+    text-align: center;
+    background-color: #ff4c68;
+    color: #ffff;
+}
+.testimonials-img{
+    
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding : 7% 15%;
+}
+#press
+{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 6%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 15px;
+    
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+@media (max-width: 1028px)
+{
+
+    #title{
+        text-align: center;
+    }
+  .title-image{
+      position: static;
+      transform: rotate(0);
+  }  
+}
+/* site-footer */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+   
+}
+.cta-text{
+    color: white;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 5rem;
+    padding : 2% 15%;
 }
